@@ -75,7 +75,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 •	The first task of the playbook needs to increase the virtual memory on the VM there by improving the performance of the ELK container running inside.                                                    
 •	apt module is used to install Docker (Docker engine used for running containers) and python-pip (Package used to install python software)
+
 •	 Used pip module to install Python client for Docker. Required by ELK.
+
 •	Used docker container module to download and launch a docker elk container(sebp/elk) with published ports.                                    
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -84,6 +86,7 @@ https://github.com/rajatutbootcamp/Elk-Stack-Project/blob/master/Images/docker%2
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
+
 | Name               | Private IP Address |
 |--------------------|---------------------|--------------------|
 | DVWA-VM1           | 10.0.0.4            |
