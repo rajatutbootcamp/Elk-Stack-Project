@@ -88,8 +88,8 @@ https://github.com/rajatutbootcamp/Elk-Stack-Project/blob/master/Images/docker%2
 This ELK server is configured to monitor the following machines:
 
 | Name               | Private IP Address |
-|--------------------|---------------------|--------------------|
-| DVWA-VM1           | 10.0.0.4            |
+|--------------------|--------------------|
+| DVWA-VM1           | 10.0.0.4           |
 | DVWA-VM2           | 10.0.0.6           |
 | DVWA-VM3           | 10.0.0.7           |
 | DVWA-VM4           | 10.0.0.8           |
